@@ -55,3 +55,90 @@ body{
 .fa-arrow-right{
     margin-left: 5px;
 }
+/*------------------------------- main container ----------------------------- */
+.top-header{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 5px;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
+.link-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 312px;
+     background-color: #161616;
+     height: 312px
+    
+     
+}
+.img-area{
+width: 312px;
+height: 362px;
+margin-left: 15px;
+
+}
+.link{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px 25px;
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+.link a{
+    color:#161616;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 174px;
+    height: 30px;
+}
+.link-blog{
+    background: #DD0000;
+    border-radius: 10px;
+    padding: 16px 25px;
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+.link-blog a{
+    width: 45px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.transfer-link{
+    width: 100px;
+    height: 32px;
+    margin-top: 5px;
+    color: #161616;
+}
+.transfer-pera{
+        width: 272px;
+        height: 54px;
+        font-weight: 600;
+        font-size: 18px;
+        color: #161616;
+}
+.img-icon{
+    margin-left: 90px;
+}
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    margin-top: 150px;
+    margin-left: 335px;
+}
