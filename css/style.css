@@ -139,7 +139,7 @@ margin-left: 15px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 5px;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 335px;
 }
 /*-------------------- footer section --------------- */

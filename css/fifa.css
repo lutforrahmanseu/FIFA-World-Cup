@@ -93,6 +93,24 @@ margin-left: 15px;
     width: 252px;
     height: 64px;
 }
+.link-upcoming{
+    background: #DD0000;
+    border-radius: 10px;
+    padding: 16px 25px;
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+.link-upcoming a{
+    color:#FFFFFF;;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 174px;
+    height: 30px;
+}
 .link a{
     color:#161616;
     text-decoration: none;
@@ -102,7 +120,7 @@ margin-left: 15px;
     height: 30px;
 }
 .link-blog{
-    background: #DD0000;
+    background: #FFFFFF;
     border-radius: 10px;
     padding: 16px 25px;
     margin-top: 24px;
@@ -116,27 +134,40 @@ margin-left: 15px;
     height: 30px;
     font-weight: 600;
     font-size: 20px;
-    color: #FFFFFF;
+    color:#161616;
     text-decoration: none;
 }
-.transfer-link{
-    width: 100px;
-    height: 32px;
-    margin-top: 5px;
+
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 40px #ddd8d8 ;
+    border-radius: 10px;
+
+    
+}
+.flag-heading{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
     color: #161616;
 }
-.transfer-pera{
-        width: 272px;
-        height: 54px;
-        font-weight: 600;
-        font-size: 18px;
-        color: #161616;
+.flag-time{
+    text-align: center;
+    color:#4D4D4D;
 }
-.img-icon{
-    margin-left: 90px;
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    margin-top: 190px;
+    margin-left: 335px;
+    
 }
 /*-------------------- footer section --------------- */
 .footer-box{
+    margin-top: 150px;
     background-color: #161616;
     
 }
