@@ -142,3 +142,35 @@ margin-left: 15px;
     margin-top: 150px;
     margin-left: 335px;
 }
+/*-------------------- footer section --------------- */
+.footer-box{
+    background-color: #161616;
+    
+}
+.footer-heading{
+    padding-top:50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+}
+hr{
+    margin-left: 14px;
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 100px; 
+    margin-top: 15px;
+}
+.footer-link a{
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-left: 60px;
+   
+}
