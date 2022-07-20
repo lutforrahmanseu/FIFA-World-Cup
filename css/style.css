@@ -143,6 +143,7 @@ margin-left: 15px;
     margin-left: 335px;
 }
 .view-button{
+    display: none;
     color: #FFFFFF;
     border: none;
     border-radius: 15px;
@@ -191,3 +192,34 @@ hr{
     color: #B9B9B9;
     text-decoration: none;
 }
+/*------------------------ Media query------------------------ */
+/*------------------------- mobile----------------- */
+@media only screen and (max-width:650px) {
+    .container, .top-header, .footer-box,.image-section{
+        width: 100%;
+    }
+    .link-area, .footer-link{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-area ,.footer
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+   .footer-icon{
+    flex-direction: column;
+   }
+    
+ }
+   /*------------------- tablet device --------------- */
+   @media only screen and (min-width:650px) and (max-width:992px) {
+    .container, .top-header, .footer-box,.image-section{
+        width: 100%;
+    }
+    .link-area, .footer-link{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img-area ,.footer
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+   }
