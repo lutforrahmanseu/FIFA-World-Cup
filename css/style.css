@@ -142,6 +142,15 @@ margin-left: 15px;
     margin-top: 180px;
     margin-left: 335px;
 }
+.view-button{
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    background: #DD0000;
+    padding: 16px 25px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
 /*-------------------- footer section --------------- */
 .footer-box{
     background-color: #161616;
@@ -181,5 +190,4 @@ hr{
     height: 25px;
     color: #B9B9B9;
     text-decoration: none;
-   
 }
