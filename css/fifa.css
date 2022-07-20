@@ -135,13 +135,6 @@ margin-left: 15px;
 .img-icon{
     margin-left: 90px;
 }
-.image-section{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 5px;
-    margin-top: 150px;
-    margin-left: 335px;
-}
 /*-------------------- footer section --------------- */
 .footer-box{
     background-color: #161616;
